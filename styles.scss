@@ -1,0 +1,54 @@
+@use "./styles/_variables" as *;
+@use "./styles/_reset";
+@use "./styles/_tiles";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600&display=swap');
+
+
+.container{
+
+  &__tile {
+    border: 2px solid $primary-border;
+    font-size: 60px;
+   
+  }
+    
+
+  &__button{
+    background-color: $button-color;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+
+    
+
+  }
+}
+
+h1{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+hr{
+  margin-bottom: 50px ;
+}
+
+#button-new{
+ margin-top: 20px;
+
+}
