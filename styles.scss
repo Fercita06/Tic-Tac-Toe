@@ -18,7 +18,7 @@
     
 
   &__button{
-    background-color: $button-color;
+    background-color: #0C6164;
     color:white;
     border-radius: 5px;
     border:none;
@@ -57,12 +57,9 @@ hr{
 
 }
 
-
-#1{
-  color:white;
-  font-size: 36px;;
-}
-
 .player1{
-  
+  font-size: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
 }
