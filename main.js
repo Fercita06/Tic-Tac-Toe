@@ -56,6 +56,21 @@ tiles.forEach((tile, index) => {
   }) 
 });
 
+
+
+const checkWinner = (player,playerName) =>{
+ let isPlayerWinning = winningConditions.map(condition => condition.every(number => (player.includes(number)) ));
+ console.log(isPlayerWinning);
+ 
+  if(isPlayerWinning.includes(true)){
+    alert(`${playerName} won`);
+    //resetGame();
+  }else if(!isPlayerWinning.includes(true) && allInputs.length == 9){
+    alert("Nobody won");
+  }
+
+}
+
 const resetGame = () => {
   player1=[];
   player2=[];
@@ -65,23 +80,12 @@ const resetGame = () => {
   tiles.forEach((tile) => {
    tile.innerText = ""; 
 });
-
-}
-
-const checkWinner = (player,playerName) =>{
- let isPlayerWinning = winningConditions.map(condition => condition.every(number => (player.includes(number)) ));
- console.log(isPlayerWinning);
- 
-  if(isPlayerWinning.includes(true)){
-    alert(`${playerName} won`);
-    resetGame();
-  }else if(!isPlayerWinning.includes(true) && allInputs.length == 9){
-    alert("Nobody won");
-  }
-
 }
 
 buttonReset.addEventListener("click", resetGame);
+
+
+
 
 
 
