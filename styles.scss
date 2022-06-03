@@ -8,12 +8,13 @@
 
   &__tile {
     //border: 2px solid $primary-border;
-    margin: 10px; 
+    //margin: 10px; 
+    height: 100px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    border: 1px solid $primary-border;
+    border: 1px solid 
    
    
   }
@@ -51,7 +52,10 @@ h1{
 }
 
 hr{
-  margin-bottom: 50px ;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  
 }
 
 #button-new{
@@ -59,9 +63,16 @@ hr{
 
 }
 
-/*.player1{
-  font-size: 70px;
+.player1{
+  font-size: 100px;
   color: white;
   display: flex;
   align-items: center;
-}*/
+}
+
+.player2 {
+  font-size: 75px;
+  color: #0C6064; 
+  display: flex;
+  align-items: center;
+}

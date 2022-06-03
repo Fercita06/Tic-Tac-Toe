@@ -59,12 +59,12 @@ font-size: 100px;
 }
 
 .container__tile {
-  margin: 10px;
+  height: 100px;
+  width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
-  border: 1px solid #DDB889;
+  border: 1px solid;
 }
 .container__button {
   background-color: #0C6164;
@@ -94,15 +94,24 @@ h1 {
 
 hr {
   margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 #button-new {
   margin-top: 20px;
 }
 
-/*.player1{
-  font-size: 70px;
+.player1 {
+  font-size: 100px;
   color: white;
   display: flex;
   align-items: center;
-}*//*# sourceMappingURL=styles.css.map */
+}
+
+.player2 {
+  font-size: 75px;
+  color: #0C6064;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
