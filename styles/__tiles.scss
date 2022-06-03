@@ -1,10 +1,11 @@
+@use "./_variables" as *;
+
 .container__tiles {  
   background-color: $primary-color;
-  
-  
   width: 300px;
   height: 320px;
   margin:auto;
+  margin-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(3,1fr);
@@ -15,6 +16,10 @@
     "tile4 tile5 tile6"
     "tile7 tile8 tile9";
 }
+
+/*.container_tile{
+font-size: 100px;
+}*/
 
 #tile1 { grid-area: tile1; }
 

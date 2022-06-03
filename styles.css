@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container__tiles {
   background-color: #629EA0;
   width: 300px;
   height: 320px;
   margin: auto;
+  margin-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -12,6 +19,9 @@
   grid-template-areas: "tile1 tile2 tile3" "tile4 tile5 tile6" "tile7 tile8 tile9";
 }
 
+/*.container_tile{
+font-size: 100px;
+}*/
 #tile1 {
   grid-area: tile1;
 }
@@ -49,10 +59,15 @@
 }
 
 .container__tile {
-  border: 2px solid #D8B887;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 1px solid #DDB889;
 }
 .container__button {
-  background-color: #148488;
+  background-color: #0C6164;
   color: white;
   border-radius: 5px;
   border: none;
@@ -83,5 +98,11 @@ hr {
 
 #button-new {
   margin-top: 20px;
-  margin-bottom: 15px;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*.player1{
+  font-size: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+}*//*# sourceMappingURL=styles.css.map */
