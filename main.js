@@ -1,6 +1,5 @@
 const tiles = document.querySelectorAll(".container__tile");
 console.log(tiles);
-const buttonNew = document.getElementById("button-new");
 const buttonReset = document.getElementById("button-reset");
 
 // assign a value to each player.
