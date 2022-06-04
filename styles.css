@@ -71,6 +71,12 @@ font-size: 100px;
   border-right: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .container__tiles {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
 body {
   background-color: #629EA0;
 }
@@ -140,11 +146,5 @@ hr {
 
   h1 {
     font-size: 30px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .container__tiles {
-    width: 300px;
-    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */
