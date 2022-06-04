@@ -33,7 +33,7 @@ const winningConditions = [
 tiles.forEach((tile, index) => {
   tile.addEventListener("click", (event) => {
     console.log(event.target.innerHTML);
-    // tiles.value = event.target.innerText;
+   
     if (player === "X"){
       tile.innerText="X";
       console.log(event.target);
