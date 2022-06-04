@@ -114,11 +114,10 @@ h1 {
 
 hr {
   border: 2px dotted #DDB889;
-  width: 360px;
+  width: 300px;
   margin: 0 auto 50px auto;
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 #button-new {
