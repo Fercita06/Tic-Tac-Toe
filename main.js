@@ -36,7 +36,7 @@ tiles.forEach((tile, index) => {
     console.log(event.target.innerHTML);
     // tiles.value = event.target.innerText;
     if (player === "X"){
-      tile.innerText="x";
+      tile.innerText="X";
       console.log(event.target);
       tile.classList.add ("player1");
       allInputs.push(event.target.id)
