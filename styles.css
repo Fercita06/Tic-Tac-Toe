@@ -113,7 +113,7 @@ h1 {
 }
 
 hr {
-  border: 2px dotted #D8B887;
+  border: 2px dotted #DDB889;
   width: 360px;
   margin: 0 auto 50px auto;
   display: flex;
@@ -127,14 +127,14 @@ hr {
 
 .player1 {
   font-size: 75px;
-  color: white;
+  color: #F0F0F0;
   display: flex;
   align-items: center;
 }
 
 .player2 {
   font-size: 75px;
-  color: #0C6064;
+  color: #0C6164;
   display: flex;
   align-items: center;
 }

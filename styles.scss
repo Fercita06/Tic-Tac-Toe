@@ -24,8 +24,8 @@ body {
     
 
   &__button{
-    background-color: #0C6164;
-    color:white;
+    background-color: $circle-color;
+    color: $button-font;
     border-radius: 5px;
     border:none;
     display: flex;
@@ -56,7 +56,7 @@ h1{
 }
 
 hr{
-  border:2px dotted #D8B887; 
+  border:2px dotted $primary-border; 
   width:360px;
   margin: 0 auto 50px auto;
   display: flex;
@@ -72,14 +72,14 @@ hr{
 
 .player1{
   font-size: 75px;
-  color: white;
+  color: $cross-color;
   display: flex;
   align-items: center;
 }
 
 .player2 {
   font-size: 75px;
-  color: #0C6064; 
+  color: $circle-color ; 
   display: flex;
   align-items: center;
 }
