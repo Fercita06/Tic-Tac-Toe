@@ -65,7 +65,7 @@ const checkWinner = (player,playerName) =>{
     alert(`${playerName} won`);
     setTimeout(function() {
       resetGame();
-    }, 1500);
+    }, 1000);
   }else if(!isPlayerWinning.includes(true) && allInputs.length == 9){
     alert("It is a draw");
     setTimeout(function() {
