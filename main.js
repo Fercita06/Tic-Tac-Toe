@@ -63,9 +63,14 @@ const checkWinner = (player,playerName) =>{
  
   if(isPlayerWinning.includes(true)){
     alert(`${playerName} won`);
-    //resetGame();
+    setTimeout(function() {
+      resetGame();
+    }, 1500);
   }else if(!isPlayerWinning.includes(true) && allInputs.length == 9){
     alert("Nobody won");
+    setTimeout(function() {
+      resetGame();
+    }, 1500);
   }
 
 }

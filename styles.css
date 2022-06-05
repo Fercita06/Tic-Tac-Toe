@@ -23,49 +23,49 @@
 /*.container_tile{
 font-size: 100px;
 }*/
-#tile1 {
+.container__tile.tile1 {
   grid-area: tile1;
   border-top: 0;
   border-left: 0;
 }
 
-#tile2 {
+.container__tile.tile2 {
   grid-area: tile2;
   border-top: 0;
 }
 
-#tile3 {
+.container__tile.tile3 {
   grid-area: tile3;
   border-top: 0;
   border-right: 0;
 }
 
-#tile4 {
+.container__tile.tile4 {
   grid-area: tile4;
   border-left: 0;
 }
 
-#tile5 {
+.container__tile.tile5 {
   grid-area: tile5;
 }
 
-#tile6 {
+.container__tile.tile6 {
   grid-area: tile6;
   border-right: 0;
 }
 
-#tile7 {
+.container__tile.tile7 {
   grid-area: tile7;
   border-left: 0;
   border-bottom: 0;
 }
 
-#tile8 {
+.container__tile.tile8 {
   grid-area: tile8;
   border-bottom: 0;
 }
 
-#tile9 {
+.container__tile.tile9 {
   grid-area: tile9;
   border-bottom: 0;
   border-right: 0;
