@@ -2,7 +2,7 @@ const tiles = document.querySelectorAll(".container__tile");
 console.log(tiles);
 const buttonReset = document.getElementById("button-reset");
 
-// assign a value to each player.
+// assign a value to the first player.
 
 let player = "X";
 
