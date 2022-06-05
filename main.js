@@ -89,16 +89,7 @@ const resetGame = () => {
 buttonReset.addEventListener("click", resetGame);
 
 
-const resetGame = () => {
-  player1=[];
-  player2=[];
-  allInputs=[]; 
-  player = "X";
 
-  tiles.forEach((tile) => {
-   tile.innerText = ""; 
-});
-}
 
 
 
