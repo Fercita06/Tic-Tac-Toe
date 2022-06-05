@@ -67,7 +67,7 @@ const checkWinner = (player,playerName) =>{
       resetGame();
     }, 1500);
   }else if(!isPlayerWinning.includes(true) && allInputs.length == 9){
-    alert("Nobody won");
+    alert("It is a draw");
     setTimeout(function() {
       resetGame();
     }, 1500);
