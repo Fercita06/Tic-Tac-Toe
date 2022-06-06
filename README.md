@@ -14,3 +14,6 @@ Players take turns putting their marks in empty squares.
 The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner. 
 When all 9 squares are full, the game is over.
 
+
+
+[tic-tac-toe-img.docx](https://github.com/Fercita06/Tic-Tac-Toe/files/8844806/tic-tac-toe-img.docx)
